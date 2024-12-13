@@ -716,9 +716,9 @@ static void doCommand(NSString *gesture, int device) {
 //            } else if ([command isEqualToString:@"Bottom & Top"]) {
 //                [keyUtil simulateKey:@"↓" ShftDown:YES CtrlDown:YES AltDown:NO CmdDown:NO FnDown:YES];
 //                //[keyUtil simulateKey:@"]" ShftDown:YES CtrlDown:NO AltDown:NO CmdDown:YES FnDown:NO];
-//            } else if ([command isEqualToString:@"Next Tab"]) {
-//                [keyUtil simulateKey:@"Tab" ShftDown:NO CtrlDown:YES AltDown:NO CmdDown:NO FnDown:NO];
-//                //[keyUtil simulateKey:@"]" ShftDown:YES CtrlDown:NO AltDown:NO CmdDown:YES FnDown:NO];
+            } else if ([command isEqualToString:@"Next Tab"]) {
+                [keyUtil simulateKey:@"Tab" ShftDown:NO CtrlDown:YES AltDown:NO CmdDown:NO FnDown:NO];
+                //[keyUtil simulateKey:@"]" ShftDown:YES CtrlDown:NO AltDown:NO CmdDown:YES FnDown:NO];
             } else if ([command isEqualToString:@"Previous Tab"]) {
                 [keyUtil simulateKey:@"Tab" ShftDown:YES CtrlDown:YES AltDown:NO CmdDown:NO FnDown:NO];
                 //[keyUtil simulateKey:@"[" ShftDown:YES CtrlDown:NO AltDown:NO CmdDown:YES FnDown:NO];
